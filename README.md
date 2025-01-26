@@ -2,13 +2,20 @@
 
 Network Programming ReadMe
 
-Authors:			Dylan Derstine, Shannen Cawley, Kylee Hager
+Authors:			Shannen Cawley, Dylan Derstine, Kylee Hager
+
 Creation Date:			12/03/24
+
 Last Modified:			12/09/24
+
 Due Date:		    	December 12, 2024
+
 Course: 		   	CPSC 328 Network Programming
+
 Professor Name:			Dr. Schwesinger
+
 Assignment:		 	Network Program Implementation
+
 Purpose:	    		To develop a file server application similar to the sftp program that can serve multiple clients at once.
 
 How to build the server and client:
@@ -45,4 +52,4 @@ Assumptions:
 Development Process:
 	We started with a design document that went over our basic approach, including our first rendition of our protocol. It was modified slightly before moving on to implementation. The first version of the server was made first, which included the sending and receiving functions with a new version of the protocol. This version got rid of the labels before each section. The client was made shortly after using the same send/receive as the server. From there, the two were updated simultaneously, adding the functions to handle each client command one-by-one, testing throughout. The client dealt with anything it could handle on its own (without the server), and the server was “brought in” for the rest.
 
-Status:
+Status: Majority of the command line arguments were as anticipated. A couple bugs with the get and put requests. 
